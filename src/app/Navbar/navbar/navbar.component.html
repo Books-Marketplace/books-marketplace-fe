@@ -1,0 +1,45 @@
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">
+      <i class="bi bi-book"></i> Books Marketplace
+    </a>
+    <button
+      class="navbar-toggler"
+      type="button"
+      data-bs-toggle="collapse"
+      data-bs-target="#navbarNav"
+      aria-controls="navbarNav"
+      aria-expanded="false"
+      aria-label="Toggle navigation"
+    >
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav me-auto">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" routerLink="/">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLink="/catalog">Catalog</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLink="/cart">
+            <i class="bi bi-cart"></i> Cart
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLink="/shipping-history"
+            >Shipping History</a
+          >
+        </li>
+      </ul>
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" routerLink="/admin/dashboard">
+            <i class="bi bi-speedometer2"></i> Admin Dashboard
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>

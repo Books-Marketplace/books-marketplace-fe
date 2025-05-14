@@ -1,0 +1,17 @@
+footer {
+  margin-top: auto;
+}
+
+footer a {
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+footer a:hover {
+  color: #f8f9fa !important;
+  text-decoration: underline;
+}
+
+footer hr {
+  background-color: #6c757d;
+}
